@@ -23,7 +23,7 @@ The GitHub repro contains three files that are not part of the modeule:
 - **Start-DemoDemoDemo.ps1** - Contains a working example of all three supported demo types: Command, Segment, and File.
 - **Start-MyFirstScript.ps1** - The file used by Start-DemoDemoDemo to demonstrate the File-type demo.
 
-By downloading or cloning the repo you can run (after unblocking the files) ```.\Start-DemoDemoDemo.ps1`` to see a basic example of how libDemo looks and operates.
+By downloading or cloning the repo you can run (after unblocking the files) ```.\Start-DemoDemoDemo.ps1``` to see a basic example of how libDemo looks and operates.
 
 # NOTES
 
