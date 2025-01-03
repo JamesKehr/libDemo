@@ -14,3 +14,24 @@ libDemo does not fake type commands. I personally see this is a time consuming s
 # Usage
 
 See the wiki: 
+
+## Using Start-DemoDemoDemo
+
+The GitHub repro contains three files that are not part of the modeule:
+
+- **template.ps1** - Think of this as a quick start guide to creating demos.
+- **Start-DemoDemoDemo.ps1** - Contains a working example of all three supported demo types: Command, Segment, and File.
+- **Start-MyFirstScript.ps1** - The file used by Start-DemoDemoDemo to demonstrate the File-type demo.
+
+By downloading or cloning the repo you can run (after unblocking the files) ```.\Start-DemoDemoDemo.ps1`` to see a basic example of how libDemo looks and operates.
+
+# NOTES
+
+- The scripts need to be be unblocked if you download them from the GitHub webpage. This is not needed if the repo is cloned.
+
+```powershell 
+Get-ChildItem "<path to files>" | Unblock-File
+```
+- Here-strings currently to do not highlight correctly. This is a known limitation with the initial version of libDemo.
+- Please create an issue for any bugs or feature requests.
+- Feel free to submit a PR if you add to or fix anything for libDemo.
