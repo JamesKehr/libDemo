@@ -33,5 +33,6 @@ By downloading or cloning the repo you can run (after unblocking the files) ```.
 Get-ChildItem "<path to files>" | Unblock-File
 ```
 - Here-strings currently to do not highlight correctly. This is a known limitation with the initial version of libDemo.
+- Lines that are longer than the width of the console/terminal will currently cause scrolling issues.
 - Please create an issue for any bugs or feature requests.
 - Feel free to submit a PR if you add to or fix anything for libDemo.
