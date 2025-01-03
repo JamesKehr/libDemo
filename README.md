@@ -13,7 +13,7 @@ libDemo does not fake type commands. I personally see this is a time consuming s
 
 # Usage
 
-See the wiki: 
+See the [wiki](https://github.com/JamesKehr/libDemo/wiki).
 
 ## Using Start-DemoDemoDemo
 
